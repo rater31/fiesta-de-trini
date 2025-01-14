@@ -1,0 +1,25 @@
+---
+import Image from "astro/components/Image.astro";
+import ubi from "../assets/ubi.gif";
+
+---
+
+<div class="w-[90%] ff my-10  h-auto m-auto rounded-lg flex flex-col">
+    <Image src={ubi} alt="algo" class="w-40 m-auto h-40 "/>
+     <span class="pacifico-regular text-[#FFFF] text-[25px] text-center mt-1 my-10 w-[100%] m-auto"> ubicación</span>
+     <iframe class="m-auto my-10 rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d905.9797247766043!2d-65.49509913107732!3d-24.729664411815076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bea616fc62e21%3A0x467c6967446ff199!2sLa%20Recova%20de%20San%20Lorenzo!5e0!3m2!1ses-419!2sar!4v1736866365796!5m2!1ses-419!2sar" width="270" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     <span class="pacifico-regular text-[#FFFF] text-[25px] text-center mt-1 my-10 w-[100%] m-auto">Confirmar antes del 20/01/25</span>
+     <a href="https://wa.me/543874659556?text=hola%20confirmo%20mi%20asistencia%20al%20cumpleaños%20de%20Trini%20somos%20(cantidad%20de%20personas)" class="bg-[#a325f7] text-center p-2 w-1/2 m-auto my-10 rounded-lg pacifico-regular text-white">Confirmar aquí</a>
+</div>
+
+<style>
+    .pacifico-regular {
+        font-family: "Pacifico", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .ff{
+        background-color: rgba(95, 17, 110, 0.658);
+        
+    }
+</style>

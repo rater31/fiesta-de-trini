@@ -1,0 +1,16 @@
+---
+import Image from "astro/components/Image.astro"
+import Gif from "../assets/cumpledetrini.gif"
+---
+
+<div>
+	<Image class="mm" src={Gif} alt="hola"/>
+</div>
+
+<style>
+
+.mm{
+	mask-image: linear-gradient(black 80%, transparent);
+}
+
+</style>
