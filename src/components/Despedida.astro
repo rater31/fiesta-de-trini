@@ -1,0 +1,28 @@
+---
+import Image from "astro/components/Image.astro";
+import corazon from "../assets/corazon.gif";
+---
+
+<div class="pacifico-regular overflow-hidden flex  flex-col text-[#f5f5f5]">
+    <h2 class="text-center w-[90%] m-auto my-10 pb-2">¡No te lo puedes perder! ¡Te esperamos con los brazos abiertos! </h2>
+    <h3 class="text-center w-[90%] m-auto my-10 pb-2">¡Prepárate para celebrar a lo grande! ¡Contamos contigo!</h3>
+    <Image src={corazon} alt="corazon" class="m-auto w-[50%]"/>
+</div>
+
+
+<style>
+       .pacifico-regular {
+        font-family: "Pacifico", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+    }
+
+    h2,h3 {
+        background: linear-gradient(rgb(236, 84, 236),rgb(114, 19, 109));
+    -webkit-background-clip: text;
+    color: transparent;  
+
+    }
+  
+</style>
